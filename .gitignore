@@ -1,1 +1,12 @@
-mypokedex
+# Built executable
+/mypokedex
+/mypokedex.exe
+
+# Go test and coverage output
+*.test
+coverage.out
+
+# Local environment variables
+.env
+.env.*
+!.env.example
